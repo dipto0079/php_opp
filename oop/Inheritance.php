@@ -26,11 +26,7 @@ class manager extends employee{
         echo "Employee Age :" . $this->age."<br>";
         echo "Employee Salary :" . $this->totalSalary;
     }
-
 }
-
-
-
 $e1=new manager("Ram",25,10000);
 $e2=new employee("Joy",25,2000);
 $e1->info();

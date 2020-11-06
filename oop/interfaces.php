@@ -17,6 +17,6 @@ class childClass implements parent1 ,parent2{
 }
 $test = new childClass();
 
-$test->calc(50,35);
+$test->calc(50,30);
 echo "<br>";
 $test->sub(40,35);

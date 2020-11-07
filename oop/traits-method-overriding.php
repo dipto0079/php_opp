@@ -6,7 +6,7 @@ trait hello{
 }
 class base{
     use hello{
-        hello::sayhello as public;
+        hello::sayhello as public newhello;
     }
 }
 /*trait hi{
@@ -21,5 +21,5 @@ class base{
     }
 }*/
 $test=new base();
-$test->sayhello();
+$test->newhello();
 //$test->newhello();

@@ -1,2 +1,6 @@
 <?php
-echo "This is test page";
+require "oop/getMethod.php";
+$test=new getMethod();
+echo $test->get("name");
+echo "test";
+echo "test";

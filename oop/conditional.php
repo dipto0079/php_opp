@@ -49,7 +49,7 @@ if (trait_exists('MyTrait')){
 
 }
 $obj = new MyClass();
-if (is_a('$obj','MyClass')){
+if (is_a($obj,'MyClass')){
     echo "This Object is of Class MyClass.";
 
 }else{
@@ -63,9 +63,9 @@ class childClass extends parentClass{
 
 }
 $obj = new childClass();
-if (is_subclass_of('$obj','parentClass')){
-    echo "This \$obj is a object of subclass of parentClass.";
+if (is_subclass_of($obj,'parentClass')){
+    echo "This obj is a object of subclass of parentClass.";
 
 }else{
-    echo "This \$obj is not a object of subclass of parentClass.";
+    echo "This obj is not a object of subclass of parentClass.";
 }

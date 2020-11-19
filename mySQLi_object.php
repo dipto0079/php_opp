@@ -9,7 +9,7 @@ $conn = new mysqli($servername,$username,$password,$dbname);
 if ($conn->connect_errno){
     die("Connection Falied :" . $conn->connect_error);
 }
-$sql = "SELECT * FROM students";
+$sql = "SELECT * FROM users";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0){
